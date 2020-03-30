@@ -38,13 +38,13 @@
     <div class="login-box-body">
         <p class="login-box-msg">管理员登录</p>
 
-        <form action="#" method="post">
+        <form action="/login" method="post">
             <div class="form-group has-feedback">
-                <input type="email" class="form-control" placeholder="邮箱">
+                <input name="email" type="email" class="form-control" placeholder="邮箱">
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" placeholder="密码">
+                <input name="password" type="password" class="form-control" placeholder="密码">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">

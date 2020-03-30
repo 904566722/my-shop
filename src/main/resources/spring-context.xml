@@ -4,4 +4,10 @@
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- DAO -->
+    <bean id="userDao" class="com.hhhqqq.my.shop.dao.impl.UserDaoImpl"></bean>
+
+    <!-- Service -->
+    <bean id="userService" class="com.hhhqqq.my.shop.service.impl.UserServiceImpl"></bean>
+
 </beans>
