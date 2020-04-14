@@ -39,6 +39,12 @@
         <p class="login-box-msg">管理员登录</p>
 
         <form action="/login" method="post">
+            <div class="alert alert-danger alert-dismissible" ${loginErrorMessage == null ? "style='display:none'" : ""}>
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <h4><i class="icon fa fa-ban"></i> 登录失败!</h4>
+                ${loginErrorMessage}
+            </div>
+
             <div class="form-group has-feedback">
                 <input name="email" type="email" class="form-control" placeholder="邮箱">
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

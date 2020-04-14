@@ -37,6 +37,7 @@ public class LoginController extends HttpServlet {
             resp.sendRedirect("/main.jsp");
         }
         else {
+            req.setAttribute("loginErrorMessage","用户名或密码错误");
             req.getRequestDispatcher("/index.jsp").forward(req,resp);
         }
     }
