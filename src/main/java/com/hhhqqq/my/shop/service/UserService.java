@@ -8,7 +8,7 @@ public interface UserService {
      * @author HHQ
      * @param email 邮箱
      * @param password 密码
-     * @return com.hhhqqq.my.shop.entity.User 用户
+     * @return com.hhhqqq.my.shop.entity.User 成功返回：用户；错误返回：null
      */
     public User login(String email, String password);
 }

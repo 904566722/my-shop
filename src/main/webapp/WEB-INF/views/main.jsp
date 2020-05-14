@@ -11,6 +11,6 @@
     <title>首页</title>
 </head>
 <body>
-    <h1>首页</h1>
+    首页
 </body>
 </html>
